@@ -28,3 +28,24 @@ for d in data:
 print('一共有', len(good), '筆留言')
 print(good[0])
 
+good = [1 for d in data if 'good' in d]
+print(good)
+
+bad = ['bad' in d for d in data]
+print(bad)
+
+bad = []
+for d in data
+	bad.append('bad' in d)
+
+
+
+
+
+
+
+
+
+
+
+
